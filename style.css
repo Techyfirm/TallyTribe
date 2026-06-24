@@ -21,8 +21,16 @@ body{
   font-optical-sizing: auto;
   font-style: normal;
 }
+section{
+  position: absolute;
+}
 .container{
 padding: var(--padding-0-5-rem);
+}
+.btn_wrapper{
+  display: flex;
+  width: 25%;
+  justify-content: space-evenly;
 }
 nav{
   display: flex;
@@ -43,4 +51,20 @@ nav{
 h1{
   font-weight: 800;
   color: var(--primary_color);
+}
+.hero{
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10%;
+}
+.left_hero{
+  position: absolute;
+  width: 60%;
+}
+
+.right_hero{
+  position: absolute;
+  width: 40;
 }
