@@ -23,6 +23,8 @@ body{
 }
 section{
   position: absolute;
+  height: 100vh;
+  width: 100%;
 }
 .container{
 padding: var(--padding-0-5-rem);
@@ -35,6 +37,7 @@ padding: var(--padding-0-5-rem);
 nav{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
   object-fit: cover;
@@ -44,9 +47,19 @@ nav{
   width: 100px;
 }
 .nav_link{
-  display: flex;
-  justify-content: space-evenly;
   text-align: center;
+  text-decoration: none;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  
+}
+nav a{
+  text-decoration: none;
+  color: var(--primary_color);
+  font-weight: 600;
 }
 h1{
   font-weight: 800;
